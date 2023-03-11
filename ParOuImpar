@@ -1,0 +1,21 @@
+
+Algoritmo "ParOuImpar"
+
+var
+numero:inteiro
+
+
+
+Inicio
+
+Escreva("digite um numero")
+leia(numero)
+
+   Se numero % 2 = 0 Então
+      Escreva("O número é par")
+   Senão
+      Escreva("O número é ímpar")
+
+fimse
+
+Fimalgoritmo
