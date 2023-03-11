@@ -1,0 +1,48 @@
+Algoritmo "CalculaPerímetroDeRetângulo"
+
+Var
+
+// Seção de Declarações das variáveis
+
+base, altura, perimetro: real
+
+ehQuadrado: logico
+
+Inicio
+
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+
+Escreva("Digite o valor da base: ")
+
+Leia(base)
+
+
+Escreva("Digite o valor da altura: ")
+
+Leia(altura)
+
+
+Se (base = altura) Entao
+
+Escreva("Os valores informados correspondem aos lados de um quadrado.")
+
+ehQuadrado <- Verdadeiro
+
+Senao
+
+ehQuadrado <- Falso
+
+FimSe
+
+
+Se (ehQuadrado = Falso) Entao
+
+perimetro <- 2 * base + 2 * altura
+
+Escreva("O perímetro do retângulo é: ", perimetro)
+
+Senao
+
+Escreva("Os valores informados correspondem a um quadrado, e não a um retângulo.")
+
