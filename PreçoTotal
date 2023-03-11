@@ -1,0 +1,51 @@
+Algoritmo "lojinha"
+
+
+Var
+nome, cod:caracter
+preco_normal, valor_pago : real
+
+condicao_pagamento: inteiro
+
+
+inicio
+Escreval("digite o seu nome: ")
+leia(nome)
+
+Escreval("Digite o preço normal do produto: ")
+Leia(preco_normal)
+
+
+Escreval("Códigos de condição de pagamento:")
+Escreval("1 - À vista em dinheiro ou cheque, com 10% de desconto")
+Escreval("2 - À vista no cartão de crédito, com 15% de desconto")
+Escreval("3 - Em duas vezes, preço normal de etiqueta sem juros")
+Escreval("4 - Em três vezes, preço normal de etiqueta mais juros de 10%")
+Escreval("Digite o código da condição de pagamento: ")
+Leia(condicao_pagamento)
+
+
+Se condicao_pagamento = 1 Então
+    valor_pago <- preco_normal * 0.9
+
+Senão
+  se condicao_pagamento = 2 Então
+    valor_pago <- preco_normal * 0.85
+
+Senão
+   se condicao_pagamento = 3 Então
+      valor_pago <- preco_normal
+
+Senão Se condicao_pagamento = 4 Então
+    valor_pago <- preco_normal * 1.1
+FimSe
+FimSe
+fimse
+
+
+
+    Escreval("Valor a ser pago: R$ ", valor_pago)
+
+
+FimAlgoritmo
+
