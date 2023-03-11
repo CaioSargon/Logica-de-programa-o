@@ -1,0 +1,18 @@
+Algoritmo "TransformarFirengintEmCelsius"
+
+
+Var
+ 
+temperatura, celsius: real
+
+
+
+Inicio
+
+   escreval("escreve a temperatura em firengint")
+   leia (temperatura)
+   
+celsius <- (temperatura - 32)/ 1.8
+
+ escreval (" o valor dessa temperatura em celcius é de: ",celsius)
+Fimalgoritmo
