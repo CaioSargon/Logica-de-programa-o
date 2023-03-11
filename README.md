@@ -18,7 +18,7 @@ leia(dias)
 
 IdadeEmDias <- (anos * 365) + (meses * 30) + dias
 
-// Exibição da idade em dias
+
 escreva("A idade em dias é: ", IdadeEmDias)
 
 FimAlgoritmo
